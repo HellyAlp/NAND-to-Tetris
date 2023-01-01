@@ -1,0 +1,30 @@
+yasmin.selah,hellyalpern
+===============================================================================
+Yasmin Selah, ID 312407091, yasmin.selah@mail.huji.ac.il
+Helly Alpern, ID 316608082, rachel.alpern@mail.huji.ac.il
+===============================================================================
+
+                           Project 8 - Virtual Machine 2
+                           ----------------------- 
+  
+
+Submitted Files
+---------------
+README - This file.
+main.py - The main file runs the complete program. It runs the file
+               reader, a method that finds the relevant files to translate.
+               Than it creates an parser and code objects and run the relevant
+                methods.
+CodeWriter-   A class representing the code part of the  Virtual Machine process. It is
+            	      in charge of converting the commands to its assembly representation.
+					In this project the code writer is able to cope with more complex actions-
+					we added an implementation of commands like- function, goto, if-goto, initialization and return.
+Parser.py - A class represents the parsing stage in the Virtual Machine. 
+ 
+
+
+Remarks
+-------
+This ex is an exstention of project 7.
+In this project we extended the Code Writer section and now our VMtranslator can translate
+ more complex actions like loops, function, return commands etc.
